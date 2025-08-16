@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+}
