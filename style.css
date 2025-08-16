@@ -1,10 +1,10 @@
 body {
+    margin: 0;
+    padding: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
-    padding: 100px;
 }
 
 ul {
@@ -21,56 +21,43 @@ img {
 }
 
 .hero {
-    /* width: 100%; */
-    display: flex;
-    flex-direction: column;
     background-color: yellow;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.footer {
+    box-sizing: border-box;
+    border: 2px solid black;
+    text-align: center;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
+    border: 2px solid black;
 }
 
 .link {
     display: flex;
     gap: 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
 }
 
 .leader {
     display: flex;
+    box-sizing: border-box;
+    border: 2px solid black;
 }
 
 .data {
     display: flex;
     flex-direction: column;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-/* .card {
-    height: 100px;
-    width: 100px;
-} */
-
-.mid2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.text2 {
-    margin-left: auto;
-}
-
-.sign {
-    margin: 50px;
+    box-sizing: border-box;
+    border: 2px solid black;
 }
 
 .mid1 {
@@ -79,9 +66,51 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    max-width: 80%;    
+}
+
+.mid2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.text2 {
+    margin-left: auto;
+    box-sizing: border-box;
+    border: 2px solid black;
 }
 
 .sign {
-    background-color: lightseagreen;
+    margin: 150px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: bisque;
 }
+
+
+
+
 
