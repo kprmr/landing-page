@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1f2937;
 }
 
 ul {
@@ -22,16 +23,32 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #f9faf8;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 /* Part 1 (Text and Image side by side) */
 .part1 {
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
 
+.part1 .part1-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.part1 .part1-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .part1 img{
@@ -40,9 +57,20 @@ a {
 }
 
 /* Part 2 (Cards in a row that wraps) */
+.part2 {
+    text-align: center;
+}
+
+.part2-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -56,16 +84,50 @@ a {
 }
 
 /* Part 3 */
+.part3 {
+    background-color: #e5e7eb;
+}
+
+.part3 .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.part3 .author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 /* Part 4 the block should be in center */
 .part4 {
+    background-color: #3882f6;
+    color: #f9faf8;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
+.part4 .part4-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.part4 .part4-subtext {
+    font-size: 18px;
+}
+
+.part4 button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: solid white;
+}
+
 /* Footer */
 .footer {
+    color: #f9faf8;
+    background-color: #1f2937;
     text-align: center;
 }
