@@ -1,43 +1,71 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
+    font-family: 'Times New Roman', Times, serif;
 }
 
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    width: 300px;
-    height: 300px;
-}
-
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .links {
     display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Part 1 (Text and Image side by side) */
+.part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.part1 img{
+    width: 600px;
+    height: 300px;
+}
+
+/* Part 2 (Cards in a row that wraps) */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.part2 img {
+    width: 200px;
+    border: 2px solid aqua;
+}
+
+/* Part 3 */
+
+/* Part 4 the block should be in center */
+.part4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-}
-
-.cards {
-    display: flex;
-    /* gap: 20px; */
-    flex-wrap: wrap;
+/* Footer */
+.footer {
+    text-align: center;
 }
