@@ -1,116 +1,133 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header */
+.header {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
 }
 
 ul {
     list-style-type: none;
 }
 
+.links {
+    display: flex;
+    gap: 15px;
+}
+
 a {
     text-decoration: none;
+    color: #f9faf8;
 }
 
-img {
-    height: 300px;
-    width: 300px;
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
-.hero {
-    background-color: yellow;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.footer {
-    box-sizing: border-box;
-    border: 2px solid black;
-    text-align: center;
-}
-
-.header {
+/* Part 1 (Text and Image side by side) */
+.part1 {
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    border: 2px solid black;
-}
-
-.link {
-    display: flex;
-    gap: 5px;
-    box-sizing: border-box;
-    border: 2px solid black;
-}
-
-.leader {
-    display: flex;
-    box-sizing: border-box;
-    border: 2px solid black;
-}
-
-.data {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    border: 2px solid black;
-}
-
-.mid1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: blueviolet;
-    box-sizing: border-box;
-    border: 2px solid black;
-    /* padding-left: 200px;
-    padding-right: 200px; */
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 20px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    max-width: 80%;    
 }
 
-.mid2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: aqua;
-    box-sizing: border-box;
-    border: 2px solid black;
-    padding-left: 200px;
-    padding-right: 200px;
+.part1 .part1-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
 }
 
-.text2 {
-    margin-left: auto;
-    box-sizing: border-box;
-    border: 2px solid black;
+.part1 .part1-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
-.sign {
-    margin: 150px;
-    box-sizing: border-box;
-    border: 2px solid black;
+.part1 img{
+    width: 600px;
+    height: 300px;
+}
+
+/* Part 2 (Cards in a row that wraps) */
+.part2 {
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
-    background-color: bisque;
 }
 
+.part2-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
 
+.info {
+    max-width: 200px;
+}
 
+.part2 img {
+    width: 200px;
+    border: 2px solid aqua;
+}
 
+/* Part 3 */
+.part3 {
+    background-color: #e5e7eb;
+}
+
+.part3 .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.part3 .author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Part 4 the block should be in center */
+.part4 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.part4 .part4-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.part4 .part4-subtext {
+    font-size: 18px;
+}
+
+.part4 button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: solid white;
+}
+
+/* Footer */
+.footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    text-align: center;
+}
